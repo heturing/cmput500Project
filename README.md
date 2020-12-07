@@ -31,7 +31,7 @@ Run this command to install the dependency libraries `pip install numpy gensim t
 
 ### Run the experiment
 
-The program will run for several minutes. If you want to train the network with gpu, be sure to install CUDA and Cudnn correctly according to you tensorflow version. The correspondence can be found [here](https://www.tensorflow.org/install/source#gpu). To install CUDA in conda, run this `conda install cudatoolkit=VERSION`. See here for [installing Cudnn](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-linux).
+The program will run for several minutes. If you want to train the network with gpu, be sure to install CUDA and Cudnn correctly according to you tensorflow version. You can check which version of CUDA and Cudnn to install at [here](https://www.tensorflow.org/install/source#gpu). To install CUDA in conda, run this `conda install cudatoolkit=VERSION`. See here for [installing Cudnn](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-linux).
 
 ```
 cd cmput500Project
