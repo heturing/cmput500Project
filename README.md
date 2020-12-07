@@ -11,3 +11,10 @@ However, this scripy run the Soot framework. So a prewrite java program must be 
 44 of extract_ground_truth.py into the command that runs the analysis in Soot.
 
 ## Running the code
+### Install Dependencies
+Run this command to install the dependency libraries `pip install numpy gensim tensorflow-gpu`
+
+### Run the experiment
+```
+cd cmput500Project
+python run_experiment.py 
