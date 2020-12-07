@@ -11,10 +11,20 @@ However, this scripy run the Soot framework. So a prewrite java program must be 
 44 of extract_ground_truth.py into the command that runs the analysis in Soot.
 
 ## Running the code
+### Create conda environment
+Run the following command to install conda environment
+`conda create --name NAME_OF_YOUR_ENVIRONMENT python=3.7`
+Activate environment
+`conda activate NAME_OF_YOUR_ENVIRONMENT`
+Deactivate environment
+`conda deactivate`
+
 ### Install Dependencies
 Run this command to install the dependency libraries `pip install numpy gensim tensorflow-gpu`
 
 ### Run the experiment
 ```
 cd cmput500Project
-python run_experiment.py 
+python run_experiment.py -nn FNN -df data/LiveVariableAnalysisOut.txt
+```
+The program will run for several minutes. If you want to train the network with gpu, be sure to install CUDA and Cudnn correctly according to you tensorflow version. The correspondence can be found [here](https://www.tensorflow.org/install/source#gpu).
