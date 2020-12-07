@@ -18,11 +18,11 @@ To generate your own dataset, you need to:
 
 ## Running the code
 ### Create conda environment
-Run the following command to install conda environment
+* Run the following command to install conda environment
 `conda create --name NAME_OF_YOUR_ENVIRONMENT python=3.7`
-Activate environment
+* Activate environment
 `conda activate NAME_OF_YOUR_ENVIRONMENT`
-Deactivate environment
+* Deactivate environment
 `conda deactivate`
 
 ### Install Dependencies
